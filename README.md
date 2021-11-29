@@ -21,6 +21,6 @@ We do request that publications in which this testbed is adopted, explicitly ack
 
 @ARTICLE{...}
 
-@misc{simulink_model, title={{D}ynamic {V}irtual {P}ower {P}lant Case Studies}, howpublished={GitLab repository}, author={V. Häberle}, note = {https://git.ee.ethz.ch/verenhae/dvppcasestudies}, year={2021}}
+@misc{simulink_model, title={{D}ynamic {V}irtual {P}ower {P}lant Case Studies}, howpublished={Github repository}, author={V. Häberle}, note = {https://github.com/VerenaHaeberle/DVPP-9-bus}, year={2021}}
 
 For further information do not hesitate to contact me: verenhae@ethz.ch
