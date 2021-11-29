@@ -586,10 +586,6 @@ xiq0_DVPP_3_1 = 0;
 xid0_DVPP_3_1_pu = 0;
 xiq0_DVPP_3_1_pu = 0;
 
-%integrator power controller
-xq0_DVPP_3_1 = iq_star0_DVPP_3_1/ki_q_pu;
-xq0_DVPP_3_1_pu = xq0_DVPP_3_1/I_m_DVPP_3_1;
-
 %PV (device 2 of DVPP 3)
 %output filter voltage v 
 vd0_DVPP_3_2 = V_m_DVPP_3_2;                            
@@ -621,9 +617,6 @@ xiq0_DVPP_3_2 = 0;
 xid0_DVPP_3_2_pu = 0;
 xiq0_DVPP_3_2_pu = 0;
 
-%integrator power controller
-xq0_DVPP_3_2 = iq_star0_DVPP_3_2/ki_q_pu;
-xq0_DVPP_3_2_pu = xq0_DVPP_3_2/I_m_DVPP_3_2;
 
 %STATCOM & Battery (device 3 of DVPP 3)
 %output filter voltage v 
@@ -655,10 +648,6 @@ xid0_DVPP_3_3 = 0;
 xiq0_DVPP_3_3 = 0;
 xid0_DVPP_3_3_pu = 0;
 xiq0_DVPP_3_3_pu = 0;
-
-%integrator power controller
-xq0_DVPP_3_3 = iq_star0_DVPP_3_3/ki_q_pu;
-xq0_DVPP_3_3_pu = xq0_DVPP_3_3/I_m_DVPP_3_3;
 
 %%LPV DVPP controller for DVPP 3
 tau1_p_DVPP_3 = 1.5;                                        %LPF-time constant device 1 (wind), m_pf
