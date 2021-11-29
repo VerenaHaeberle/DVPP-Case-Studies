@@ -1,4 +1,4 @@
-# DVPP-9-bus
+# DVPP Case Studies
 This repository contains the Simulink/MATLAB models of the IEEE 9 bus system used in the paper:
 
 V. Häberle, M. W. Fisher, E. Prieto-Araujo and F. Dörfler, "Control Design of Dynamic Virtual Power Plants - A Divide-and-Conquer Approach" 
