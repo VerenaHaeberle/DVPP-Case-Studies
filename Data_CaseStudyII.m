@@ -409,7 +409,7 @@ Pb_DVPP_3 = Pb_DVPP_3_1+Pb_DVPP_3_2 + Pb_DVPP_3_3;
 m_DVPP_3_1p_0_n = Pb_DVPP_3_1/(Pb_DVPP_3);          %device1 (wind)
 m_DVPP_3_2p_0_n = Pb_DVPP_3_2/(Pb_DVPP_3);          %device2 (PV)
 
-%%fix reactive power ratings of DVPP converters
+%%nominal reactive power ratings of DVPP converters
 Qb_DVPP_3_1 = 60e6;                                 %reactive power rating primary source 1 [Var]
 Qb_DVPP_3_2 = 45e6;                                 %reactive power rating primary source 2 [Var]
 Qb_DVPP_3_3 = 80e6;                                 %reactive power rating primary source 3 [Var]
